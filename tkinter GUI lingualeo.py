@@ -104,7 +104,7 @@ win = tk.Tk()
 win.title("***Word practice*** kuzantiv")
 # win.geometry('400x200')
 win.resizable(False, False)
-win.iconbitmap('icon.ico')
+#win.iconbitmap('icon.ico')
 
 first_frame = ttk.LabelFrame(win, text='this frame')
 first_frame.grid(column=0, row=0, padx=15, pady=15)
